@@ -51,7 +51,7 @@ def done():
 def main():
     print(bn)
     try:
-        akses = req.get(f"http://yutixcode.xyz/akses/ui/{me}", verify=False).status_code
+        akses = #req.get(f"http://yutixcode.xyz/akses/ui/{me}", verify=False).status_code
         print(end='')
         if akses != 200:
             print(f"{green}[{white}1{green}]{white}Wordlist scan")

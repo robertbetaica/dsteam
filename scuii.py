@@ -93,8 +93,8 @@ def main():
             else:
                 exit(f"\n{purple}[{white}!{purple}]{white}Yang bener masukin inputnya")
         else:
-            print(end=f"\r{white} {{!}} Kamu tidak memiliki izin\n {{!}} YourID: {green}{me}\n")
-            exit(f"{white} {{!}} Author: {green}sanzking")
+            #print(end=f"\r{white} {{!}} Kamu tidak memiliki izin\n {{!}} YourID: {green}{me}\n")
+            #exit(f"{white} {{!}} Author: {green}sanzking")
     except KeyboardInterrupt:
         exit(f"\n{purple}[{white}!{purple}]{white}Keluar script")
     except Exception as er:
